@@ -1,0 +1,20 @@
+{
+  "name": "WordGuess",
+  "version": "1.0.0",
+  "description": "A word guessing game similar to hangman.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/03brando/WordGuess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/03brando/WordGuess/issues"
+  },
+  "homepage": "https://github.com/03brando/WordGuess#readme"
+}
