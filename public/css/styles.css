@@ -1,0 +1,73 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:monospace
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+h2{
+    text-align: center;
+}
+#btn-container{
+    text-align: center;
+    padding-bottom: 25px;
+}
+#new{
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 6px 12px;
+    border: white; 
+    background-color: rgba(178, 244, 247, 0.795);
+    cursor: pointer;
+}
+#new:hover{
+    background-color: rgb(163, 253, 168);
+}
+#letters{
+    display: grid;
+    grid-template-columns: repeat(7,50px);
+    height: 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+#word-display{
+    text-align: center;
+    font-size: 100px;
+}
+.btn-letter{
+    height: 50px;
+    background-color:rgba(178, 244, 247, 0.795);
+    border-color:rgba(178, 244, 247, 0.322);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.selected{
+    background-color:slategrey;
+    border-color: rgba(112, 128, 144, 0.075);
+    color: black;
+}
+#lbl-results{
+    font-size: 25px;
+    padding-top: 150px;
+    text-align: center;
+}
+#name{
+    padding-top: 40px;
+    text-align: center;
+}
+.correct{
+    color: lime;
+}
